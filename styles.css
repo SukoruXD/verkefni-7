@@ -5,15 +5,15 @@ html
 body
 {
     margin: 0;
+    background-color: rgb(209, 173, 63);
+    background-image: linear-gradient(rgb(199, 135, 80), rgb(235, 201, 90));
 }
 header
 {
     text-align: center;
 }
-.body_bg
-{
-    background-color: rgb(209, 173, 63);
-    background-image: linear-gradient(rgb(199, 135, 80), rgb(235, 201, 90));
+audio{
+    z-index: 1;
 }
 nav
 {
@@ -21,6 +21,8 @@ nav
     background-color: blue;
     background-image: linear-gradient(rgb(89, 102, 220), rgb(64, 109, 154));
     padding: 8px;
+    z-index: 2;
+    gap: 10px;
 }
 main
 {
